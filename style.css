@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Moo+Lah+Lah&family=Nosifer&family=Protest+Strike&display=swap');
+
+*{
+    margin: auto;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #ffe100 , #fd8f00, #FB5022);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.599);
+}
+.fotocapa{
+    padding: 80px;
+    height: 195px;
+    border-radius: 300px;
+}
+nav,h1{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6em;
+    height: 200px;
+    width: 100%;
+    text-align:center;
+}
+#envelop{
+    background-image: linear-gradient(to bottom, #ffc800, #fd8f00, #FB5022);
+    border-radius: 100px 100px 0px 0px;
+}
+main{
+    background-image: linear-gradient(to bottom,  #ffc800, #fd8f00, #FB5022);
+    padding: 20px 10px;
+    width: 390px;
+    height: 100%;
+    border-radius: 100px 100px 0px 0px;
+    box-shadow: 0px 20px 10px rgba(22, 22, 22, 0.657);
+}
+p{
+    padding: 15px;
+}
+#foto1{
+    margin: -10px;
+    width: 410px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(foto-lanche2.jpg);
+}
+#foto2{
+    margin: -10px;
+    width: 410px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(foto-lanche3.jpg);
+}
+#foto3{
+    margin: -10px;
+    width: 410px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(foto-lanche4pequena.jpg);
+}
+#foto4{
+    margin: -10px;
+    width: 410px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(foto-lanche6pequena.jpg);
+}
+#foto5{
+    margin: -10px;
+    width: 410px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    background-image:url(foto-lanche7pequena.jpg);
+}
+#foto6{
+    margin: -10px;
+    width: 410px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    background-image:url(foto-lanche5pequena.jpg);
+}
+#foto7{
+    margin: -10px;
+    width: 410px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    background-image:url(foto-lanche1pequena.jpg);
+}
+#rodape{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom,#FB5022,  #ff8000, rgb(255, 200, 0) );
+    display: flex;
+    justify-content: center;
+    
+}
+#fotoRodape{
+    height: 70px;
+    border-radius: 100px;
+}
